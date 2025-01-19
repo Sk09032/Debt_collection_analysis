@@ -43,9 +43,11 @@ pip install -r requirements.txt
 ```
 ## Step 4: Add the All_Conversations Folder after Unzip
 After unzipping the All_Conversations.zip file, place the All_Conversations folder into the project directory Ensure the directory structure looks something like this:
+``` bash
 /YourProjectFolder
     /All_Conversations
     /venv
     requirements.txt
     temp.ipynb
     ...
+```

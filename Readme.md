@@ -23,18 +23,21 @@ Before beginning the installation, ensure you have Python 3 installed on your sy
 
 ## Step 2: Set up a Virtual Environment
 Create a Python virtual environment using `venv`:
-
+``` bash
 python3 -m venv venv
-
+```
 Activate the virtual environment:
 
 On Windows:
+``` bash
 venv\Scripts\activate
-
+```
 On macOS/Linux:
+``` bash 
 source venv/bin/activate
-
+```
 ## Step 3: Install Dependencies
 Install the required Python packages from `requirements.txt`:
-
+``` bash
 pip install -r requirements.txt
+```
